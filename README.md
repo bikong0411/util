@@ -5,7 +5,7 @@ It is a lua library write by lua, used for array and string, based on https://ra
 bugfix some bugs and add some new methods
 
 usage:
-
+<pre>
 local util = require 'util'
 print "test isArray!"
 print("{1,2,3} is Array: " ..tostring(util.isArray({1,2,3})))
@@ -185,3 +185,4 @@ end
 print("#########################")
 print("test Equal")
 util.assertEqual({1,2,3},{1,2,3,4,['a']=1},5)
+</pre>
